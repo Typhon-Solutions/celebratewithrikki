@@ -3,8 +3,11 @@
 	font-family: 'Cormorant Garamond', serif;
 }
 
-h1 {
-	font-family: 'Abel', sans-serif;
+h1, h2 , h3, h4 {
 	font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
 	font-family: 'PT Sans', sans-serif;
 }
