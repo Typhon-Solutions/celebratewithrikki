@@ -1,30 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Celebrate with Rikki</title>
-  <meta name="description" content="Static website for Rikki marriage celebrant." />
-  <meta name="author" content="Rikki" />
-  <meta name="google-site-verification" content="2cfy0En0XVuI9q14Fp-kKhqJ8ejRMDHWhURRwh8KXzs" />
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <meta content="Rikki marriage celebrant." name="description">
+  <meta content="Rikki" name="author">
+  <meta content="2cfy0En0XVuI9q14Fp-kKhqJ8ejRMDHWhURRwh8KXzs" name="google-site-verification">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Custom CSS -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abel|PT+Sans|Cormorant+Garamond|Roboto" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
-<body>
-	<h1>Hello, I'm Rikki the marriage celebrant</h1>
-	<div>
-		<form action="https://formspree.io/rikki@celebratewithrikki.com"
-	      method="POST">
-	    <p>Name</p>
-	    <input type="text" name="name">
-	    <p>Email</p>
-	    <input type="email" name="_replyto">
-	    <p>Message</p>
-	    <textarea name="message" rows="10" required="message"></textarea>
-	    <p><input type="submit" value="Send"></p>
-		</form>
-	</div>
-  <script src="js/scripts.js"></script>
+<body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li>
+              <a class="page-scroll" href="#page-top">Home</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">About</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#services">Pricing</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </div>
+  </nav><!-- Intro Section -->
+  <section class="intro-section" id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Hello, I'm Rikki the marriage celebrant</h1>
+        </div>
+      </div>
+    </div>
+  </section><!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>About</h1>
+        </div>
+      </div>
+    </div>
+  </section><!-- Pricing Section -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Pricing</h1>
+        </div>
+      </div>
+    </div>
+  </section><!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Contact</h1>
+          <form action="https://formspree.io/rikki@celebratewithrikki.com" method="post">
+            <p>Name</p><input name="name" type="text">
+            <p>Email</p><input name="_replyto" type="email">
+            <p>Message</p>
+            <textarea name="message" required="message" rows="10"></textarea>
+            <p><input type="submit" value="Send"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section><!-- jQuery -->
+  <script src="js/jquery.js">
+  </script> <!-- Bootstrap Core JavaScript -->
+   
+  <script src="js/bootstrap.min.js">
+  </script> <!-- Scrolling Nav JavaScript -->
+   
+  <script src="js/jquery.easing.min.js">
+  </script> 
+  <script src="js/scrolling-nav.js">
+  </script>
 </body>
 </html>
