@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0; 
+  font-weight: 500;
+  font-family: 'HelveticaNeue';
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+ }
