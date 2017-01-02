@@ -7,13 +7,13 @@ body {
   font-family: 'HelveticaNeue';
 }
 
-header {
-  background-color: #9CCC65;
-}
-
 section {
   height: 100vh;
- }
+}
+
+.header {
+  background-color: #9CCC65;
+}
 
 #welcome {
   background-color: #FAFAFA;
