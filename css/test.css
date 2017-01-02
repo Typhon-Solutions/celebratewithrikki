@@ -12,3 +12,19 @@ section {
   height: 100vh;
  }
 
+#welcome {
+  background-color: #FAFAFA;
+}
+
+#about {
+  background-color: #EEEEEE;
+}
+
+#pricing {
+  background-color: #FAFAFA;
+}
+
+#contact {
+  background-color: #EEEEEE;
+}
+
