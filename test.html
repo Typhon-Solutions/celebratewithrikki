@@ -20,7 +20,7 @@
     <nav>
     <a href="#welcome">Welcome</a>
     <a href="#about">About</a>
-    <a href="#section3">Section 3</a>
+    <a href="#contact">Contact</a>
 	</nav>
 	<section id="welcome">
       <div class="content">
@@ -32,9 +32,21 @@
     <p>ABOUT this website</p>
       </div>
     </section>
-    <section id="section3">
+    <section id="contact">
       <div class="content">
-    <p>third section</p>
+    <p>Contact me</p>
+        <form action="https://formspree.io/rikki@celebratewithrikki.com" class="" method="post">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" id="Name" name="name" pattern="[A-Z,a-z, ]*" type="text"> <label class="mdl-textfield__label" for="Name">Name</label> <span class="mdl-textfield__error">Letters and spaces only</span>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" id="Email" name="_replyto" type="text"> <label class="mdl-textfield__label" for="Email">Email</label>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <textarea class="mdl-textfield__input" id="note" name="note" rows="5"></textarea> <label class="mdl-textfield__label" for="note">Enter message</label>
+          </div>
+          <p><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">Submit</button></p>
+        </form>
       </div>
     </section>
     </body>
