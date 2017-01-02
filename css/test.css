@@ -7,6 +7,10 @@ body {
   font-family: 'HelveticaNeue';
 }
 
+header {
+  background-color: #9CCC65;
+}
+
 section {
   height: 100vh;
  }
@@ -26,4 +30,3 @@ section {
 #contact {
   background-color: #F5F5F5;
 }
-
