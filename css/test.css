@@ -11,6 +11,12 @@ section {
   height: 100vh;
 }
 
+.content {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
 .header {
   background-color: #9CCC65;
 }
