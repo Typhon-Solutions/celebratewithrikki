@@ -25,6 +25,7 @@ section {
 #welcome {
   background-color: #FAFAFA;
   background: url(../img/welcome-bg.jpg);
+  text-align: center;
 }
 
 #about {
