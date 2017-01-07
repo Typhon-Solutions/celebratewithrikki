@@ -10,7 +10,7 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
-h1, h2 , h3, h4 {
+h1, h2 , h3, h4, h5 {
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -19,24 +19,24 @@ section {
   padding-bottom: 24px;
 }
 
-.mdl-cell {
-  padding-bottom: 24px;
-}
-
 .content {
   width: 100%;
   padding-top: 48px;
-  max-width: 720px;
+  max-width: 90vh;
   margin: 0 auto;
 }
 
 .header {
-  background-color: #9CCC65;
+  background-color: #E8F5E9;
 }
 
 #welcome {
   background-color: #FAFAFA;
-  background: url(../img/welcome-bg.jpg);
+  background: url(../img/welcome-bg02.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
 }
 
