@@ -2,19 +2,31 @@
   box-sizing: border-box; 
 }
 
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
 body {
   font-weight: 500;
-  font-family: 'HelveticaNeue';
+  font-family: 'Abel', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2 , h3, h4 {
+  font-family: 'Cormorant Garamond', serif;
 }
 
 section {
   height: 100vh;
+  padding-bottom: 24px;
+}
+
+.mdl-cell {
+  padding-bottom: 24px;
 }
 
 .content {
   width: 100%;
   padding-top: 48px;
-  max-width: 640px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -34,12 +46,26 @@ section {
 
 #about {
   background-color: #F5F5F5;
+  text-align: center;
 }
 
 #pricing {
   background-color: #FAFAFA;
+  text-align: center;
 }
 
 #contact {
   background-color: #F5F5F5;
+  text-align: center;
 }
+
+
+.contact-link {
+  color:inherit;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
