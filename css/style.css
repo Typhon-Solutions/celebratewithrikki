@@ -2,8 +2,6 @@
   box-sizing: border-box; 
 }
 
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-
 body {
   font-weight: 500;
   font-family: 'Abel', sans-serif;
@@ -19,6 +17,12 @@ section {
   padding-bottom: 24px;
 }
 
+.title {
+  font-family: 'Tangerine', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+}
+
 .content {
   width: 100%;
   padding-top: 48px;
@@ -28,6 +32,7 @@ section {
 
 .header {
   background-color: #E8F5E9;
+  min-height: 56px;
 }
 
 #welcome {
