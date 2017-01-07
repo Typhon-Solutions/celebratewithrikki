@@ -1,14 +1,11 @@
-      $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
+$(function(){
+            $('a.smooth').click(function(){
+                console.log("SMOOTH BEGIN");
+                var speed = 1000;
+                var href= $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top;
+                $(".mdl-layout__content").animate({scrollTop:position}, speed, "swing");
+                console.log("SMOOTH END");
+            });
+        });
