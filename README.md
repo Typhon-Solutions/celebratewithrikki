@@ -1,3 +1,3 @@
 # celebratewithrikki
-Rikki is a Commonwealth-registered marriage celebrant in Australia.
+Rikki is a Commonwealth-registered marriage celebrant located in Brisbane Australia.
 [http://celebratewithrikki.com/](http://celebratewithrikki.com/)
