@@ -75,7 +75,7 @@ section {
 img.logo {
     display: block;
     margin: 0 auto;
-    max-height: 160px;
+    max-height: 18vh;
     max-width:100%;
 }
 
