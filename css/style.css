@@ -88,3 +88,19 @@ img.desaturate {
   padding: 0;
   margin: 0;
 }
+
+#testimonials .testimonials__content {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#testimonials .testimonials__image {
+  display: block;
+  margin: 0 auto;
+}
+
+#testimonials .testimonials__credit {
+   margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
