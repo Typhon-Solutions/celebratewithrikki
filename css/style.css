@@ -47,6 +47,26 @@ section {
   text-align: left;
 }
 
+#about h4 {
+  text-align: left;
+}
+
+#about img {
+  max-width: 250px;
+}
+
+
+#testimonials .testimonials__content {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#testimonials .testimonials__credit {
+   margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
 #pricing {
   background-color: #FAFAFA;
   text-align: center;
@@ -77,30 +97,26 @@ img.logo {
     margin: 0 auto;
     max-height: 18vh;
     max-width:100%;
+    padding: 30px;
 }
 
 img.desaturate {
   filter: grayscale(100%);
 }
 
-.package-items {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+img.responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-#testimonials .testimonials__content {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-#testimonials .testimonials__image {
+img.center-block {
   display: block;
   margin: 0 auto;
 }
 
-#testimonials .testimonials__credit {
-   margin-top: 16px;
-  margin-bottom: 16px;
-  text-align: center;
+.package-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
